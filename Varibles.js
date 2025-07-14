@@ -15,3 +15,6 @@ window.alert("this is in alert");
 //This is Simple Element geting by id
 document.getElementById("hid").textContent="this is Backerei Kettler";
 document.getElementById("pid").textContent="I Like Pizza";
+
+document.getElementById("pid2").textContent="This is The Second Paragraph";
+document.getElementById("hid2").textContent="This is The Head 2 ";
