@@ -1,3 +1,6 @@
+
+
+/*
 console.log('hello')
 
 var a = 10
@@ -21,3 +24,21 @@ var b=30;
 var c=40;
 var sum=a+b+c;
 console.log('Sum =:'+sum);
+*/
+
+var student = 30;
+ //student = student+1;
+ //student=student + 2;
+ // student=student / 2;
+ //student=student - 2;
+ //student=student % 2;
+ //student=student * 2;
+// student=student ** 2;
+//student +=2;
+//student -=2;
+//student *=2;
+//student /=2;
+//student %=2;
+student **=2;
+console.log(student);
+
