@@ -39,6 +39,8 @@ var student = 30;
 //student *=2;
 //student /=2;
 //student %=2;
-student **=2;
+//student **=2;
+student--;
+student++;
 console.log(student);
 
