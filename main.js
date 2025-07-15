@@ -40,7 +40,20 @@ var student = 30;
 //student /=2;
 //student %=2;
 //student **=2;
+//This is increament oprator
 student--;
+//This is Decreament opreator
 student++;
 console.log(student);
 
+/*
+Operator precedence
+1. parenthesis ()
+2. exponents 
+3. multiplication & division & modulo
+4. additon & subtraction
+*/
+let result1= 1 + 2 * 3 + 4 ** 2;
+let result2= 12 % 5 + 8 / 2;
+console.log("Result is:"+result1);
+console.log("Result is:"+result2 );
