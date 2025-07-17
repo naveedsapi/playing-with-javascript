@@ -68,8 +68,4 @@ document.getElementById("btnpi") . onclick = function(){
   document.getElementById("PiCount").textContent = circumference;
 }
 
-//radius = window.prompt("Enter the Radius of a circle");
-//radius = Number (radius);
-//circumference = 2 * PI * radius;
-//document.getElementById("PiCount").textContent = circumference;
-//console.log(circumference);
+
