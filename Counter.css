@@ -1,0 +1,28 @@
+
+#labelCounter{
+      display:block;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-size: 10em;
+      color:brown;
+}
+#labelCounter:hover{
+   color:rgb(224, 79, 79);
+}
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding:10px 20px;
+    font-size: 1.5em;
+    color: whitesmoke;
+    background-color: brown;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(220, 76, 76);
+}
