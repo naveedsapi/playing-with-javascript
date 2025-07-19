@@ -5,3 +5,27 @@
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
 }
+#agecontainer{
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+#agelabel{
+    background-color: brown;
+    color:rgb(232, 232, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    
+}
+#btnage{
+    font-size: 1em;
+    background-color: blueviolet;
+    color: wheat;
+}
+#txtage{
+    width: 50%;
+    height:auto;
+    background-color: aqua;
+    color: black;
+}
