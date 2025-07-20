@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Condition1.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="PaymentContainer">
+    <div class="lefcontainer" > <p>Lorem ipsum dolor sit amet
+         consectetur, adipisicing elit.
+         Tempore magni voluptatibus adipisci hic aut et sequi
+          temporibus! Ab commodi illum iure fuga quae maiores error inventore temporibus exercitationem. Incidunt, dolorum.</p> </div>
+        <div class="rightcontainer"> 
+        <div class="PaymentContainer">
+        <label id="labinfo">Please Select the Check Button To Get Payment</label><br><br>
+         <input type="checkbox" id="btncheck">
+          <label for="Subsribe">Subsribe</label><br><br>
+         <div class="pay">
+  
+         <input type="radio" id="btnVisa" name="Card" > 
+         <label for="Visabtn">Visa</label><br>
+        <input type="radio" id="btnMaster" name="Card" >
+        <label for="Masterbtn">Master Card</label><br>
+        <input type="radio" id="btnPay" name="Card" > 
+        <label for="Paypalbtn" >Paypal</label><br><br>
+         </div>
+ 
 
-    
-    <input type="checkbox" id="btncheck">
-    <label for="Subsribe">Subsribe</label><br><br>
-    <input type="radio" id="btnVisa" name="Card" > 
-    <label for="Visabtn">Visa</label><br>
-    <input type="radio" id="btnMaster" name="Card" >
-    <label for="Masterbtn">Master Card</label><br>
-    <input type="radio" id="btnPay" name="Card" > 
-    <label for="Paypalbtn" >Paypal</label><br><br>
-
-    <button id="Submit" >Submit</button>
+        <button id="Submit" >Submit</button>
+        </div>
     </div>
+    
 </body>
 </html>
