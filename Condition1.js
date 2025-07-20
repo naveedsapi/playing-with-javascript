@@ -27,3 +27,13 @@ const submitBtn = document.getElementById("Submit");
     }
 }
 
+
+
+/*  ternary Oprator= a shortcut to if() and else statements help to assign averiable based on  a condition 
+condition ?codeTrue : codefalse */
+ let message = document.getElementById("ternaryOprator"); 
+  let age=20;
+  
+ message.textContent = age >=18 ? "You ate adult": "You are a minor";
+
+//console.log(message);
