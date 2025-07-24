@@ -38,8 +38,6 @@ btnday.onclick = function(){
         else {
             labelday.textContent="Please Enter The Day of Week!";
         }       
-                       
-    
 }
 
 
@@ -73,8 +71,7 @@ btnmonth.onclick = function(){
         }
         else {
             labelmonth.textContent="Please Enter The Day of Month!";
-        }       
-                   
+        }                     
 }
 
 
@@ -91,20 +88,91 @@ btncountry.onclick = function(){
          labelcountry.textContent=" The Country Code Dose not Exist";
     
         }
-/*
+    }
+  
+    /*
+    
+  let txtgrad =  document.getElementById("txtgrad");
+  let labgrad =  document.getElementById("labelgrad");
+  let mygrad = document.getElementById("btngrad");
+  let grad=txtgrad.value;
+  let displaygrad;
 
-    switch(country){
+   mygrad.onclick = function(){
 
-        case country = 49:
-        labelcountry.textContent = "Deutschland";
+    switch(grad){
+
+        case grad >=90 :
+        labgrad.textContent = "A";
         break;
-        case country = 42:
-            labelcountry.textContent="United Stats of Amireka";
+        case grad >= 80:
+           labgrad.textContent ="B";
+            break;
+         case grad >= 60:
+            labgrad.textContent  ="C";
+            break;
+         case grad >= 50:
+            labgrad.textContent="D";
             break;
             default:
-                {
-                    labelcountry.textContent=" The Country Code Dose not Exist";
-                }
+                labgrad.textContent="your grad lest";
+                
     }
-                */
-}
+    //labgrad.textContent=displaygrad.value;
+
+  }
+  */  
+
+   /*
+   let grad;
+   let scor=100;
+   switch(true){
+    case scor >= 90:
+        grad="A";
+        break;
+        case scor >= 80:
+            grad="B";
+            break;
+            default:
+                grad="you have no grad";
+   }
+   console.log(grad);
+   */
+
+
+   // string methods = allows you to manipulate and work with text (strings)
+  // let username="CodeBros";
+  // console.log(username.charAt(5));
+ // console.log(username.indexOf("B"));
+  //console.log(username.length);
+   //username = username.trim();
+  //console.log(username);
+
+  // username=username.toUpperCase();
+    //username=username.toLowerCase();
+   // username=username.repeat(3);
+   //let result =username.startsWith(" ");
+   // let result =username.endsWith(" ");
+   /*
+     let result =username.includes(" ");
+   if(result){
+    console.log("Your username can't begin with ' ' ");
+   }else{
+    console.log(username);
+
+    let phonenumber="123-456-789";
+   // phonenumber= phonenumber.replaceAll("-","/");
+   //  phonenumber= phonenumber.padStart(13,"0");
+       phonenumber= phonenumber.padEnd(13,"0");
+    console.log(phonenumber);
+   }
+
+   */
+    
+   //string slicing = creating a substrigs form a portion of another string  string.slice(strat,end)
+
+   const email="sapi402@gmali.com";
+   let username=email.slice(0,email.indexOf("402"));
+   let extension= email.slice(email.indexOf("402")+3);
+   console.log(username);
+   console.log(extension);
