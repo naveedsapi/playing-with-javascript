@@ -1,6 +1,8 @@
 
 
 
+
+
 let txtday = document.getElementById("txtday");
 //let day= txtday.value;
 let txtmonth = document.getElementById("txtmonth");
@@ -169,6 +171,8 @@ btncountry.onclick = function(){
 
    */
     
+
+   /*
    //string slicing = creating a substrigs form a portion of another string  string.slice(strat,end)
 
    const email="sapi402@gmali.com";
@@ -176,3 +180,29 @@ btncountry.onclick = function(){
    let extension= email.slice(email.indexOf("402")+3);
    console.log(username);
    console.log(extension);
+   */
+  
+
+   //Method Chaining = calling one method after another in one continuous of code.
+
+
+
+   
+   let username= window.prompt("Ennter your username");
+
+   //   ..No method chaining..
+  /*
+   username = username.trim();
+   let letter= username.charAt(0);
+   letter = letter.toUpperCase();
+
+   let extrachars= username.slice(1);
+   extrachars-extrachars.toLowerCase();
+   username = letter + extrachars;
+
+   console.log(username);
+*/
+   // Chain Method ..
+   username= username.trim().charAt(0).toUpperCase()+username.trim().slice(1).toLowerCase();
+   
+console.log(username);
