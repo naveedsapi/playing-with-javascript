@@ -31,4 +31,31 @@ if(age >= 18){
       }
    }
 
+   // logical oprators = used to combine or manipulate boolean values
+   //                                  (true or false)
+   //                                      AND = &
+   //                                      OR = ||
+   //                                      NOT = !
+   const temp = 20;
+   if(temp>0 &&  temp <= 30){
+    console.log("the Weather is Good");
+   }else{
+    console.log("The Weather is Bad");
+   }
+  
+   const celcius=30;
+    
+    if(celcius > 0 ||  celcius <= 30){
+    console.log("Tempretur is High");
+   }else{
+    console.log("Tempretur is Good");
+   }
+
+   const isSunny =true;
+   if(!isSunny){
+    console.log("it is Cloudy");
+   }else{
+    console.log("it is Sunny ");
+   }
+
    
