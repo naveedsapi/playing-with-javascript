@@ -33,5 +33,29 @@ console.log(numOffruits);
 //fruits.sort(); to order of array in A to z
   for(let i=0; i< fruits.length; i++){
          console.log( fruits[i]);
-     
   }
+
+ /*
+
+  // Spread Operator = ... allows an iterable such as an array of string to be 
+  //                         expanded into separate elements 
+  //                           (unpackes the elements)
+ 
+
+
+  let numbers = [1,2,3,4,5];
+  let maxnum = Math.max(...numbers);
+  let mininum =Math.min(...numbers);
+ // console.log(numbers);
+  // console.log(maxnum);
+  console.log(mininum);
+  let username = "Bro Code ";
+  let letters = [...username].join(" ");
+  console.log(letters);
+  */
+  
+  let fruitssp = ["apple", "orange", "banans"];
+  let vegtables = ["Carrots","celery","potatos"];
+
+  let foods = [...fruitssp, ...vegtables, "eggs", "milk"];
+  console.log(foods);
