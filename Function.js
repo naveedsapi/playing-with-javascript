@@ -80,10 +80,7 @@ if(toFahrenheit.checked){
    // result.textContent = "You Selected to Celsius";
 }else{
     result.textContent = " Please Select Unit ";
-}
-
-
-
+} 
 }
 
 
