@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dice_images/Dice.css">
     <title>Document</title>
 </head>
 <body>
@@ -10,11 +11,14 @@
     <div id="container">
         <h1>Dice Roller</h1>
         <label> # of Dice</label>
-        <input type="number" value="1"  min="1">
+        <input type="number" id="numOfDice" value="1"  min="1">
         <button onclick="rollDice()">Roo Dice</button>
         <div id="diceResult"></div>
         <div id="diceImages"></div>
     </div>
+
+
+    <script src="Dice.js"></script>
 
 </body>
 </html>
