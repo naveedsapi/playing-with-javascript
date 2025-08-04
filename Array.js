@@ -52,10 +52,52 @@ console.log(numOffruits);
   let username = "Bro Code ";
   let letters = [...username].join(" ");
   console.log(letters);
-  */
+ 
   
   let fruitssp = ["apple", "orange", "banans"];
   let vegtables = ["Carrots","celery","potatos"];
 
   let foods = [...fruitssp, ...vegtables, "eggs", "milk"];
   console.log(foods);
+   */
+
+
+  // rest parameters = (... rest) allow a function work with a variable number of argument by 
+  //                      by bundling them into an array.
+
+  //                     Spread = expands an array into separate elements
+  //                      reset = bunles seperats element into an array
+  /*
+   
+
+    function sum(...numbrs){
+        let result = 0;
+        for(let number of numbrs){
+            result +=number;
+        }
+        return result;
+    }
+    //const total = sum(1,2,3,4,5);
+    console.log("Your total is $"+total);
+
+     function getAverage(...numbrs){
+        let result = 0;
+        for(let number of numbrs){
+            result += number;
+        }
+        return result / numbrs.length;
+         const total = getAverage(100,72,80,90 ,50);
+    console.log(total);
+    }
+
+*/
+
+   
+
+    function combeinStrings(...strings){
+    return strings.join(" ");
+   }
+    
+   const fullName = combeinStrings("Mr","Spangbob", "Squerpants", "III");
+    console.log(fullName);
+
